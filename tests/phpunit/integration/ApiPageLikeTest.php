@@ -430,7 +430,7 @@ class ApiPageLikeTest extends ApiTestCase {
 			'pageid' => $page->getId(),
 			'set' => 1,
 		];
-		for ( $request = 0; $request < 30; $request++ ) {
+		for ( $request = 0; $request < 10; $request++ ) {
 			$this->doApiRequestWithToken( $params, null, $user );
 		}
 

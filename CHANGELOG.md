@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Reduce the per-user like write rate limit from 30 to 10 requests per 60 seconds.
+
 ## 0.2.2
 
 - Use matching SVG outlines for the unliked and liked hearts so the active state retains the same shape.

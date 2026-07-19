@@ -94,7 +94,7 @@
 	"RateLimits": {
 		"pagelike": {
 			"user": [
-				30,
+				10,
 				60
 			]
 		}
