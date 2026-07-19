@@ -1,6 +1,6 @@
 {
 	"name": "PageLike",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"author": [
 		"RiaWiki contributors"
 	],
@@ -50,7 +50,8 @@
 			"class": "MediaWiki\\Extension\\PageLike\\Hooks",
 			"services": [
 				"PageLike.Policy",
-				"PageLike.LikeStore"
+				"PageLike.LikeStore",
+				"PageLike.NotificationDeduplicationStore"
 			]
 		}
 	},
